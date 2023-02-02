@@ -26,10 +26,10 @@ namespace Deliverable_4_Mohacsi
                 }
             }
             
-            foreach (int item in fibonacci)
+            for(int i = 0; i < fibonacci.Length; i++)
             {
-                Console.WriteLine(item);
-            }   
+                Console.WriteLine("Fibonacci number ("+i+") = " + fibonacci[i]);   
+            }
         }
     }
 }
