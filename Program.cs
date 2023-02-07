@@ -9,8 +9,6 @@ namespace Deliverable_4_Mohacsi
     {
         static void Main(string[] args)
         { 
-            int[] even = new int[25];
-            int[] odd = new int[25];
             int[] fibonacci = new int[25];
             
             fibonacci[0] = 0;
@@ -18,8 +16,6 @@ namespace Deliverable_4_Mohacsi
 
             for (int i = 0; i < 25; i++)
             {
-                even[i] = 2 * i;
-                odd[i] = 2 * i + 1;
                 if (i >= 2)
                 {
                     fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
